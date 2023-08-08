@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <h1>Pendaftaran Hewan Qurban Masjid Jamie Ghoyatul Jihad</h1>
+      </div>
+
+      <div>
+        <label for="name">Masukkan nama:</label>
+        <input type="text" id="name" required />
+      </div>
+
+      <div>
+        <label for="email">Masukkan email:</label>
+        <input type="email" id="email" required />
+      </div>
+
+      <div>
+        <label for="telp">No Handphone</label>
+        <input type="number" id="telp" />
+      </div>
+
+      <div>
+        <label for="subject">Pilih hewan kurban:</label>
+        <select name="" id="subject">
+          <option value="" hidden>Pilih</option>
+          <option>Kambing</option>
+          <option>Domba</option>
+          <option>Sapi</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="desc">Deskripsi</label>
+        <textarea name="" id="desc" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <button>submit</button>
+      </div>
+    </form>
+  </body>
+</html>
