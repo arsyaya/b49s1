@@ -1,0 +1,369 @@
+/* Navbar */
+* {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: beige;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 25px;
+  font-size: 20px;
+  display: flex;
+}
+
+nav ul li img {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.nav-left ul li a:hover {
+  background-color: aqua;
+  border-radius: 20px;
+}
+
+.nav-left {
+  flex: 80%;
+}
+
+.nav-right {
+  flex: 10%;
+  text-align: end;
+  margin-right: 25px;
+}
+
+.nav-right a {
+  background-color: black;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 5px;
+}
+
+.nav-right a:hover {
+  background-color: aqua;
+  color: black;
+}
+
+/* Blog Form */
+form {
+  width: 400px;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+form .title h1 {
+  width: 90%;
+  margin-bottom: 40px;
+}
+
+form .title h1 span {
+  background-color: aqua;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.input-name {
+  margin-bottom: 15px;
+}
+
+.input-name label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.input-name input {
+  width: 100%;
+  padding: 10px;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.input-date {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  gap: 30px;
+}
+
+.input-date label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.input-date input {
+  width: 100%;
+  padding: 10px;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.input-desc {
+  margin-bottom: 15px;
+}
+
+.input-desc label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.input-desc textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 10px;
+  resize: none;
+}
+
+.choose-checkbox {
+  margin-bottom: 15px;
+}
+
+.choose-checkbox label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.checkbox1 {
+  display: flex;
+  gap: 50%;
+}
+.checkbox1 input {
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.choose-checkbox .checkbox1 label {
+  font-size: 15px;
+}
+
+.checkbox2 {
+  display: flex;
+  gap: 50%;
+}
+.checkbox2 input {
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.choose-checkbox .checkbox2 label {
+  font-size: 15px;
+}
+
+.input-blog-image-group {
+  width: 105%;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background: beige;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.input-blog-image-group label p {
+  font-size: 15px;
+}
+
+.input-blog-image-group label {
+  width: 95%;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .image label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.input-blog-image-group p {
+  font-size: 15px;
+}
+
+.input-blog-image-group input {
+  background-color: beige;
+  border: 1px solid black;
+  border-radius: 10px;
+} */
+
+.button-group {
+  text-align: right;
+}
+
+button {
+  margin-top: 50px;
+  padding: 8px 20px;
+  font-size: 17px;
+  background: black;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.blog hr {
+  border: 1px solid black;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Blog List */
+.blog-list {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-list .blog-list-item {
+  width: 80%;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: beige;
+  border: 2px solid black;
+  border-radius: 8px;
+  display: flex;
+}
+
+.blog-list .blog-list-item .blog-image {
+  flex: 1;
+}
+
+.blog-list .blog-list-item .blog-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.blog-list .blog-list-item .blog-content {
+  padding-left: 20px;
+  flex: 2;
+}
+
+.blog-list .btn-group {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.blog-list .btn-group .btn-edit {
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 4px;
+  background: aqua;
+}
+
+.blog-list .btn-group .btn-post {
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 4px;
+  background: black;
+  color: white;
+}
+
+.blog-list h1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+.blog-list .detail-blog-content {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.blog-list .blog-list-item p {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+}
+
+/* Blog Detail */
+.blog-detail {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-detail-container {
+  width: 80%;
+  margin: 40px 0;
+}
+
+.blog-detail-container h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 120%;
+  margin-bottom: 15px;
+}
+
+.blog-detail-container .author {
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+}
+
+.info .info-content {
+  flex: 80%;
+}
+
+.info .info-content img {
+  width: 100%;
+}
+
+.info-content-activity {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.icon-1 {
+  display: flex;
+  padding: 5px;
+}
+
+.icon-2 {
+  display: flex;
+  padding: 5px;
+}
+
+.info-content-activity a {
+  margin-right: 10px;
+}
+
+.info-content-paragraph p {
+  width: 100%;
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: justify;
+}
