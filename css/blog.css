@@ -137,32 +137,53 @@ form .title h1 span {
 .choose-checkbox label {
   font-size: 20px;
   margin-bottom: 5px;
+  padding: 5px;
 }
 
-.checkbox1 {
+.choose-checkbox label .checkmark {
+  margin-left: 20px;
+}
+
+.choose-checkbox label input {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+}
+
+.choose-checkbox .checkbox1 {
   display: flex;
-  gap: 50%;
+  align-items: center;
+  /* justify-content: space-between; */
 }
-.checkbox1 input {
-  background-color: beige;
-  border: 1px solid black;
-  border-radius: 10px;
+
+.choose-checkbox .checkbox1 #tech2 {
+  margin-left: 50px;
 }
+
+.choose-checkbox .checkbox1 .t2 span {
+  margin-left: 70px;
+}
+
 .choose-checkbox .checkbox1 label {
   font-size: 15px;
 }
 
-.checkbox2 {
+.choose-checkbox .checkbox2 {
   display: flex;
-  gap: 50%;
+  align-items: center;
+  /* justify-content: space-between; */
 }
-.checkbox2 input {
-  background-color: beige;
-  border: 1px solid black;
-  border-radius: 10px;
-}
+
 .choose-checkbox .checkbox2 label {
   font-size: 15px;
+}
+
+.choose-checkbox .checkbox2 #tech4 {
+  margin-left: 50px;
+}
+
+.choose-checkbox .checkbox2 .t4 span {
+  margin-left: 70px;
 }
 
 .input-blog-image-group {
@@ -261,6 +282,10 @@ button {
   flex: 2;
 }
 
+.blog-list .blog-list-item .blog-content span {
+  margin-left: 70px;
+}
+
 .blog-list .btn-group {
   text-align: right;
   margin-bottom: 20px;
@@ -295,9 +320,17 @@ button {
 .blog-list .blog-list-item p {
   margin-top: 20px;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 20px;
   text-align: justify;
+}
+
+.blog-list .blog-list-item .blog-detail-icon {
+  margin-top: 25px;
+}
+
+.blog-list .blog-list-item .blog-detail-icon a {
+  margin-right: 7px;
 }
 
 /* Blog Detail */
